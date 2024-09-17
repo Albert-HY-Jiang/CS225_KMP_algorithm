@@ -1,6 +1,6 @@
 ## Project Summary
 
-Our proposed extra credit project is to implement the 'KMP algorithm' for searching a large text file for specific patterns.
+Our proposed extra credit project for UIUC's [CS225 - Data Structure](https://siebelschool.illinois.edu/academics/courses/cs225) is to implement the 'KMP algorithm' for searching a large text file for specific patterns.
 
 ## Code
 
