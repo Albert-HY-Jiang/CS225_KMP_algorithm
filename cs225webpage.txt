@@ -1,0 +1,105 @@
+of
+Statement on anti-racism and inclusivity
+The intent of this section is to raise student and instructor awareness of the ongoing threat of bias and racism and of the need to take personal responsibility in creating an inclusive learning environment.
+
+The Grainger College of Engineering is committed to the creation of an anti-racist, inclusive community that welcomes diversity along a number of dimensions, including, but not limited to, race, ethnicity and national origins, gender and gender identity, sexuality, disability status, class, age, or religious beliefs. The College recognizes that we are learning together in the midst of the Black Lives Matter movement, that Black, Hispanic, and Indigenous voices and contributions have largely either been excluded from, or not recognized in, science and engineering, and that both overt racism and micro-aggressions threaten the well-being of our students and our university community.
+
+The effectiveness of this course is dependent upon each of us to create a safe and encouraging learning environment that allows for the open exchange of ideas while also ensuring equitable opportunities and respect for all of us. Everyone is expected to help establish and maintain an environment where students, staff, and faculty can contribute without fear of personal ridicule, or intolerant or offensive language. If you witness or experience racism, discrimination, micro-aggressions, or other offensive behavior, you are encouraged to bring this to the attention to any course staff you are comfortable sharing with. You can also report these behaviors to the Campus Belonging Office, the Office of Student Conflict Resolution, or CS CARES.
+
+Assignment Description
+The algorithms and data structures presented in CS 225 are chosen to be a strong but broad foundation of CS knowledge. As a team of two, go beyond the scope of the class to propose, implement, and benchmark a data structure or algorithm which is not covered in the class.
+
+You will only receive credit if you successfully complete all of the following components:
+
+A project proposal
+Weekly development logs and mid-project checkin meeting
+A functional code base with tests for correctness
+A final report (and presentation) that proves correctness, benchmarks performance, and estimates the runtime efficiency of your method.
+You should thoroughly read through this page before deciding if you will participate in an extra credit project!
+
+All extra credit projects will be teams of 2! There are no exceptions for individuals or larger groups of any kind.
+
+Team Formation
+To participate in the CS 225 Project, you must create your own team. This semester team formation will be done using Prairielearn. One member of the team should create a new group using an UIUC-appropriate group name and the rest can join the project with the generated join code. Once your project has been approved, you will be assigned a project mentor at which point your team is fully formed and you are ready to begin!
+
+Project Proposal (Submit by October 31st)
+Your proposed final project must be the reproduction of a known (named) algorithm or data structure not covered in this or previous CS/ECE courses. Some suggested algorithms and data structures can be found under the ‘Suggested Algorithms’ link but you can also propose your own provided there is a peer-reviewed paper or textbook describing the method in detail. Due to the difficulty in manually grading proposals, each team is only guaranteed one chance to propose a project. Please make sure you have all required components before submitting.
+
+The proposal itself has four parts (all of which should be in your Github repo when you submit it):
+
+A GitHub repository. Your repository should be private for the duration of the course but must include both course instructors (and eventually your project mentor) as contributors. (The Prairielearn submission has the required github account information for course instructors). It is up to you to maintain your repository but it should be based on the standard structure presented in the example project.
+
+A processed dataset. Your algorithm must be benchmarked on a collection of datasets of different sizes. Accordingly, inside your GitHub repo’s data directory, you must have a collection of either .txt or .csv-formatted files containing the processed dataset you plan to use. While you can add additional datasets during the course of the project, the submitted proposal must contain enough already processed and formatted data to complete the project. If your dataset is too large to store in your GitHub repo, a link should be provided to your processed dataset.
+
+A set of tests to prove algorithm correctness. Writing tests before writing your code can be very beneficial for formalizing exactly what your code should be doing. Accordingly, inside your GitHub repo’s code/tests directory, you must have a single file containing at least three written tests that would (once passed) prove your algorithm works on at least one non-trivial (non-empty) input dataset. You are not expected to write all tests ahead of time but the format should match that of the provided tests in every CS 225 assignment.
+
+A written proposal. In no more than a few paragraphs and in your own words, describe what algorithm or data structure you will be implementing. Your proposal should be titled proposal.md or proposal.pdf and located in your documents directory on Github. It must have all of the following details:
+
+Academic Reference Your proposed algorithm or data structure must be a named existing method (not a ‘novel’ data processing pipeline). You must include an peer-reviewed paper or textbook (with a direct link to the appropriate pages) that defines the algorithm or data structure you plan to implement.
+
+Algorithm Summary In your own words, describe in no more than a paragraph what the algorithm does. You can refer to your function inputs and outputs to help you explain your approach.
+
+Function I/O What are the expected inputs and outputs for your algorithm? You should break down the core functions you plan to implement that will go from your starting input dataset to the final correct output for your method. As part of this description, relate how your tests prove correctness for these functions. Please see the example project for a loose guideline for how to write this part of your proposal.
+
+In no particular order some questions to consider as you write it:
+
+(1) Do you have to do anything to convert your csv input for the algorithm described? For example, a graph algorithm would require making the input into a graph and you should have a function that describes this step.
+
+(2) Does your algorithm need more than just a dataset as input? For example, A* search requires a heuristic algorithm. If you choose to do A, what are some possible heuristics you might use? This might not be its own function but should be described as an input to A.
+
+(3) If your algorithm works in stages, consider writing a separate function for each stage. For example, many string algorithms have a preprocessing step. When drafting your function I/O, you should make sure there is a logical connection from one function to the next (output feeds input).
+
+Data Description Briefly describe where you got your data and how you processed it to a csv or txt file. If you wrote scripts or code (in any language) to automate your data processing, you should include them in your repo and describe them here.
+
+Project proposals will only be evaluated if they precisely match the expected format and contain all required information.
+
+Development Log (Done weekly after project approval)
+A successful final project is built slowly over many weeks not thrown together at the last minute. To incentivize good project pacing and to let your project mentor stay informed about the status of your work, each week you are required to submit a development log detailing:
+
+What goals you had set for the week and whether they were accomplished or not
+What specific tasks each member of your team accomplished in the week
+What problems you encountered (if any) that prevented you from meeting your goals
+What you plan to accomplish next week
+The development log will be graded for completion, detail, and honesty – not progress. It is much better to truthfully evaluate the work you completed in a week then lie to make the project sound further along then it really is. It is totally acceptable to have an entry that says you tried nothing and accomplished nothing. However if every week starts to say that, both you and your project mentor will be able to identify the issue before it becomes impossible to fix.
+
+Mid-Project Checkin (Meet before November 20th)
+Both members of your team are required to meet with your project mentor for a check-in meeting at least once before the end of the project. The meeting should be scheduled once you have what you believe is a functioning version of your proposed algorithm including a valid suite of tests. You will be expected to explain and demonstrate the tests you have written proving that the algorithm works.
+
+The purpose of this meeting is to ensure that forward progress is being made and to address any issues that are impeding progress while there is still time to correct and recover. More specifically, as you will receive 0 points on the extra credit project if it is not completed correctly, it is necessary to confirm that your algorithm is actually correct before you start benchmarking your data and writing your final report. It is ok if the result of this meeting is that you discover that your algorithm is incorrect (or that your mentor is unconvinced by your current set of tests)!
+
+Final Submission (Final deadline at top of page)
+There are four main deliverables for your extra credit project’s final submission:
+
+A functional code-base. Your code must either work on the current semester’s docker container or with special arrangements with your mentor in a system that you agreed on. It must run with no errors using simple command line arguments and have loosely reproducable runtimes.
+
+A descriptive README. In addition to the code itself, you must include a human-readable README.md which describes:
+
+Github Organization – You should describe the physical location of all major files and deliverables (code, tests, data, the written report, the presentation video, etc…)
+
+Running Instructions – You should provide full instructions on how to build and run your executable, including how to define the input data and output location for each method. You should also have instructions on how to build and run your test suite. It is in your best interest to make the instructions (and the running of your executables and tests) as simple and straightforward as possible.
+
+A written report. In addition to your code, your Github repository must contain a file final_report.pdf file which describes:
+
+A summary of your final datasets – Your report should have a table which (at minimum) describes the five distinct datasets you are running, their approximate size in one or more dimensions. For example if I have a text file I may describe n as the number of characters, the number of words, or the number of lines. If I am storing a multi-dimensional set of objects, I may define each dimension as n, m, etc…
+
+The output and correctness of your algorithm – You should go over your entire test suite and explain in words how the total test suite has proven your algorithm is correct. For example, include a manual calculation showing the correct output for a given input and give the name of the test that confirms the algorithm itself is getting the same answer.
+
+Benchmarking of your algorithm and a proposed Big O – Using at least five meaningfully distinct dataset sizes of increasing size, submit a figure with labeled axis that shows your benchmarked runtimes for each input dataset. Using this information, your code base, and your knowledge of CS theory, write a detailed justification for the overall Big O of your method. This justification can be a formal proof providing the bounds of your algorithm or rely on a pseudocode overview of your approach. If your approach ultimately did not match the theoretical Big O of your data structure, discuss why.
+
+A final presentation. Alongside your final report, you should submit a short video (10 minutes or less) describing your project. Your presentation should include slides or other visual aids and include the following content:
+
+Your Goals (Suggested time: 1-2 minutes) The presentation should begin with a summary of your algorithm from a conceptual point of view – what are the inputs, what is the output, how does it work?
+
+Tip: Think of this as ‘teaching your algorithm’ to an audience who has seen CS 225 content but nothing further.
+
+Your Development (Suggested time: 2-3 minutes) The presentation should include a high level overview of the work you put into the presentation. This is not meant to be a line by line recounting of your code but a highlight reel of the various design decisions you made and the challenges you encountered – and hopefully overcame – while working on the project.
+
+If you were unable to complete some minor follow-up work but want to still discuss it, this is the best opportunity to explain it! Bring up what you did that didn’t work out, how you tried to address the problem, and what you might do in the future if you were tasked to do this or a similar project again.
+
+Tip: If you are struggling to identify content here, ask yourself questions like: “How did we get the data we wanted?”, “How did we choose our implementation strategy for an algorithm?”, “How did we ultimately test our code to ensure that it is working?”
+
+Your Conclusions (Suggested time: 3-5 minutes) The presentation should end by summarizing your final report by conclusively proving (1) that your algorithm is correct, (2) that your benchmarking is correct, and (3) explaining your final Big O analysis of your method. Ambitious teams who went above and beyond the benchmarking can also discuss how your results led you to discover something interesting involving your real-world dataset.
+
+In addition to quantitative results, your conclusions should also end with some individual thoughts you had about the project. What did you learn, what did you like or didn’t like, and what would you explore or implement next if given more time?
+
+To submit your final project video, you may either include it on Github or include a direct link to the video on your team Github. Videos can be hosted through Zoom cloud recordings, Youtube, Google drive, etc…
